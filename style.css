@@ -6,13 +6,13 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    background: #424f6f;
+    background: blue;
 }
 
 #container {
-    width: 400px;
+    width: 450px;
     height: 400px;
-    padding: 0;
+    padding: 2;
     box-sizing: border-box;
     background: #424f6f;
 }
@@ -23,10 +23,10 @@ body {
 }
 
 #spooky {
-    margin: 10% auto;
+    margin: 5% auto;
     width: 80%;
     height: 80%;
-    animation: floaty 2s infinite;
+    animation: floaty 10s infinite;
 }
 
 #spooky #body {
@@ -48,7 +48,7 @@ body {
     width: 36px;
     height: 36px;
     border-radius: 60%;
-    background: #f2fbf1;
+    background: lightBlue;
     animation: floaty .9s infinite;
 }
 
@@ -64,9 +64,9 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 90px 0 0;
+    padding: 90px 5 0;
     width: 90px;
-    height: 20px;
+    height: 29px;
 }
 
 #spooky #body #eyes:before,
